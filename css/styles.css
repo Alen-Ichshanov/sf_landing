@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+/*common objects styles*/
+.container {
+    max-width: 1256px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    padding: 13px 33px;
+    text-transform: uppercase;
+    color: white;
+    outline: 0;
+}
+
+/*header style*/
+.header {
+    background-color: black;
+}
+
+.logo {
+    color: #E3B873;
+ }
+ 
+ .header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+ }
+
+/*navigation style*/
+.nav-bar {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 47px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.phone-num {
+    color: #E3B873;
+    text-align: right;
+    margin-right: 45px;
+}
+
