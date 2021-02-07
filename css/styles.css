@@ -4,7 +4,7 @@ body {
 
 /*common objects styles*/
 .container {
-    max-width: 1256px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -53,6 +53,5 @@ body {
 .phone-num {
     color: #E3B873;
     text-align: right;
-    margin-right: 45px;
 }
 
