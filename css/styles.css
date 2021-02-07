@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 /*common objects styles*/
@@ -53,5 +56,6 @@ body {
 .phone-num {
     color: #E3B873;
     text-align: right;
+    text-decoration: underline;
 }
 
