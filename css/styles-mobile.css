@@ -1,0 +1,48 @@
+/*common elements*/
+.container {
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.button {
+    width: 100%;
+}
+
+/*header*/
+.nav-bar-panel {
+    display: none;
+}
+
+.header-container{
+    height: 57px;
+}
+
+.header-btn {
+    display: none;
+}
+
+.phone-num {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*section-overview*/
+.section-overview {
+    padding-top: 85px;
+    height: 476px;
+}
+
+.glass-btn {
+    margin-top: 26px;
+}
+
+.main-title {
+    font-size: 23px;
+    line-height: 31px;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 19px;
+}
+

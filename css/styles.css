@@ -1,25 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 body {
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
 }
 
+body * {
+    box-sizing: border-box;
+}
+
 /*common objects styles*/
 .container {
-    max-width: 1440px;
+    max-width: 1256px;
     margin: 0 auto;
 }
 
-.button {
+.button {    
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     border: 0;
     padding: 13px 33px;
     text-transform: uppercase;
-    color: white;
     outline: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
 }
 
 /*header style*/
@@ -36,6 +59,10 @@ body {
     justify-content: space-between;
     height: 83px;
     align-items: center;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin: 0 auto;
  }
 
 /*navigation style*/
@@ -55,7 +82,67 @@ body {
 
 .phone-num {
     color: #E3B873;
-    text-align: right;
     text-decoration: underline;
+}
+
+/*section 1*/
+.section-overview {
+    background-image: url(../images/back-sec1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #464646;
+    background-size: cover;
+    height: 707px;
+    padding-top: 196px;
+    position: relative;
+}
+
+.overview-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.overview-container {
+    position: relative;
+    z-index: 1;
+    padding-left: 42px;
+} 
+
+.main-title {
+    font-size: 40px;
+    line-height: 53px;
+    color: #FFFFFF;
+    letter-spacing: normal;
+    max-width: 519px;
+}
+
+.highlight-txt {
+    color: #E3B873;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    max-width: 519px;
+    margin-bottom: 41px;
+}
+
+.solid-btn {
+    margin-right: 20px;
+}
+
+.glass-btn {
+    border: 0.5px solid #FFFFFF;
+    background: rgba(0, 0, 0, 0);;
+    box-shadow: none;
 }
 
