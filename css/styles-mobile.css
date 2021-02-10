@@ -4,9 +4,6 @@
     padding-left: 18px;
 }
 
-section {
-    height: 100vh;
-}
 
 .button {
     width: 338px;
@@ -120,9 +117,12 @@ section {
     line-height: 138.6%;
 }
 
+.section-control {
+    background-color: #131313;
+}
+
 .control-container {
     margin-top: 58px;
-    background-color: #131313;
 }
 
 .control-txt {
