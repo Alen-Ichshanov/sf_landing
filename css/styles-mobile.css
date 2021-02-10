@@ -119,3 +119,55 @@ section {
     font-size: 14px;
     line-height: 138.6%;
 }
+
+.control-container {
+    margin-top: 58px;
+    background-color: #131313;
+}
+
+.control-txt {
+    color: #FFFFFF;
+    max-width: 340px;
+    margin-bottom: 61px;
+}
+
+.video-wrap {
+    width: 340px;
+    height: 207px;
+}
+
+.broadcast-form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 0;
+    height: 300px;
+    margin-bottom: -40px;
+}
+
+.label {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.input-form {
+    background-color: #131313;
+    border-bottom: 1px solid #FFFFFF;
+    width: 340px;
+    margin-bottom: 10px;
+}
+
+.input-form::placeholder {
+    color: #FFFFFF;
+}
+
+.check-desktop {
+    display: none;
+}
+
+.check-mobile {
+    display: block;
+    margin: 0;
+    color: #FFFFFF;
+}

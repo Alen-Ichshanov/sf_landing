@@ -262,19 +262,23 @@ body * {
 
 .video-wrap {
     background-image: url(../images/control-img.png);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 817px;
     height: 434px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 60px;
+    position: relative;
 }
+
 
 .play {
     width: 85px;
     height: 85px;
+    z-index: 10;
 }
 
 .divider {
@@ -322,4 +326,9 @@ body * {
 .input-form {
     border: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.5);
+    color: #FFFFFF;
+}
+
+.check-mobile {
+    display: none;
 }
