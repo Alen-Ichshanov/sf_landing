@@ -6,7 +6,7 @@
 
 
 .button {
-    width: 338px;
+    width: 300px;
     display: block;
 }
 
@@ -41,11 +41,11 @@
 }
 
 .overview-text {
-    max-width: 338px;
+    max-width: 300px;
 }
 
 .solid-btn {
-    margin: 0 auto;
+    margin-right: 0;
 }
 
 .glass-btn {
@@ -58,7 +58,7 @@
 }
 
 .main-title {
-    max-width: 338px;
+    max-width: 300px;
     font-size: 23px;
     line-height: 31px;
 }
@@ -95,7 +95,7 @@
     margin: 0 auto;
     padding-bottom: 30px;
     padding-top: 20px;
-    max-width: 311px;
+    max-width: 300px;
 }
 
 .projects-img-mobile {
@@ -109,7 +109,7 @@
 
 .info-wrap {
     margin: 0 auto;
-    max-width: 341px;
+    max-width: 300px;
 }
 
 .info-title {
@@ -127,7 +127,7 @@
 
 .control-txt {
     color: #FFFFFF;
-    max-width: 340px;
+    max-width: 300px;
     margin-bottom: 61px;
 }
 
@@ -154,7 +154,7 @@
 .input-form {
     background-color: #131313;
     border-bottom: 1px solid #FFFFFF;
-    width: 340px;
+    width: 300px;
     margin-bottom: 10px;
 }
 
