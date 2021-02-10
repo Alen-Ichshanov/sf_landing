@@ -262,9 +262,64 @@ body * {
 
 .video-wrap {
     background-image: url(../images/control-img.png);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 70%;
-    height: 70%;
+    width: 817px;
+    height: 434px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.play {
+    width: 85px;
+    height: 85px;
+}
+
+.divider {
+    border: 2px solid #E3B873;
+    width: 55px;
+    border-radius: 2px;
+}
+
+.control-txt {
+    max-width: 681px;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+}
+
+.broadcast-form {
+    margin-top: 91px;
+    max-width: 769px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 51px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.check-label {
+    font-size: 14px;
+    line-height: 23px;
+    color: #181818;
+    margin-top: 35px;
+}
+
+.form-button {
+    width: 200px;
+    height: 50px;
+}
+
+.input-form {
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.5);
 }
