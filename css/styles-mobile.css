@@ -171,3 +171,27 @@
     margin: 0;
     color: #FFFFFF;
 }
+
+.types-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+.repair-type {
+    margin-bottom: 60px;
+}
+
+.repair-desc {
+    width: 270px;
+    margin-left: -71px;
+}
+
+.repair-price {
+    padding: 12px;
+    margin-left: -100px;
+    align-self: unset;
+}
+
+.responsive-img-repair {
+    width: 340px;
+}
