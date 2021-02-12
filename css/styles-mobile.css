@@ -195,3 +195,7 @@
 .responsive-img-repair {
     width: 340px;
 }
+
+.measurer {
+    display: none;
+}

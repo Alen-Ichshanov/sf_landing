@@ -365,6 +365,7 @@ body * {
     line-height: 25px;
     color: #363636;
     margin-bottom: 0;
+    text-transform: capitalize;
 }
 
 .repair-txt {
@@ -406,3 +407,93 @@ body * {
     letter-spacing: normal;
 }
 
+.section-measurer {
+    margin-top: 113px;
+    background-image: url(../images/houses-back.png);
+    background-repeat: no-repeat;
+}
+
+.measurer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 177px;
+    width: 100%;
+    margin-top: 113px;
+    height: 500px;
+    background-image: url(../images/houses-back.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-position: 1% 55%;
+}
+
+.steps {
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps-info {
+    display: flex;
+    max-width: 400px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.steps-txt {
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.measurer-form {
+    background-color: #131313;
+    height: 506px;
+    width: 506px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.measurer-input {
+    border: 0;
+    background-color: #131313;
+    border-bottom: .7px solid #FFFFFF;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    align-self: flex-start;
+    width: 400px;
+}
+
+.measurer-input::placeholder {
+    color: #FFFFFF;
+}
+
+.form-txt {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 297px;
+}
+
+.label-measurer {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    align-self: flex-start;
+    padding-left: 20px;
+    width: 400px;
+}
+
+.measurer-button {
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+.measurer-check {
+    color: #FFFFFF;
+    align-self: flex-start;
+    width: 400px;
+    padding-left: 20px;
+}
