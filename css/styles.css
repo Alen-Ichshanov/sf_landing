@@ -512,3 +512,75 @@ body * {
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
     width: 240px;
 }
+
+.section-fantasy {
+    background-image: url(../images/fantasy-back.png);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #464646;
+    background-size: cover;
+    height: 864px;
+    padding-top: 196px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 242px;
+}
+
+.fantasy-container {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 10;
+}
+
+.fantasy-txt {
+    font-size: 20px;
+    line-height: 38px;
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.fantasy-title {
+    letter-spacing: normal;
+}
+
+.fantasy-item {
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.fantasy-list {
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.fantasy-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -220px;
+    margin-left: 50px;
+}
+
+.fantasy-pics-wrapper {
+    display: flex;
+    align-items: flex-start;
+} 
+
+.fantasy-pics-wrapper > img {
+    margin-left: 40px;
+}
+
+.vertical-img-top {
+    margin-top: -100px;
+}
+
+.vertical-img-bot {
+    margin-top: -320px;
+}
+
+.bottom-img {
+    margin-top: 50px;
+}
+}
