@@ -196,6 +196,6 @@
     width: 340px;
 }
 
-.measurer {
+.measurer, .saving {
     display: none;
 }
