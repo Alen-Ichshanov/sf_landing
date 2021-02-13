@@ -13,7 +13,6 @@ body * {
     box-sizing: border-box;
 }
 
-/*common objects styles*/
 .container {
     max-width: 1256px;
     margin: 0 auto;
@@ -68,13 +67,12 @@ body * {
     text-transform: uppercase;
 }
 
-/*header style*/
-.header {
+.header, footer {
     background-color: black;
 }
 
  
- .header-container {
+ .header-container, .footer-container {
     display: flex;
     justify-content: space-between;
     height: 83px;
@@ -83,8 +81,6 @@ body * {
     line-height: 15px;
     margin: 0 auto;
  }
-
-/*navigation style*/
 
 .nav-item {
     margin-right: 47px;
@@ -98,7 +94,6 @@ body * {
     color: #E3B873;
 }
 
-/*section overview*/
 .section-overview {
     background-image: url(../images/back-sec1.jpg);
     background-position: center center;
@@ -157,7 +152,7 @@ body * {
     border-color: transparent;
     background: #E3B873;
 }
-/*section projects*/
+
 .section-projects {
     background-color: #131313;
 }
@@ -175,7 +170,6 @@ body * {
     margin-left: 590px;
     margin-bottom: 45px;
 }
-
 
 .projects-link {
     font-family: 'Yeseva One', cursive;
@@ -229,7 +223,6 @@ body * {
     cursor: pointer;
 }
 
-/*section control*/
 .section-control {
     margin-top: -320px;
     margin-bottom: 145px;
@@ -589,6 +582,10 @@ body * {
 
 .section-clients {
     margin-top: 300px;
+    background-image: url(../images/city-back.png);
+    background-position: center center;
+    background-size: cover;
+    height: 1050px;
 }
 
 .clients-container {
@@ -654,4 +651,8 @@ body * {
 
 .res-wrap {
     display: flex;
+}
+
+.section-company {
+    background-image: url(../images/info-back.png);
 }
