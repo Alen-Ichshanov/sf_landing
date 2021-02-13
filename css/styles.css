@@ -518,7 +518,6 @@ body * {
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #464646;
     background-size: cover;
     height: 864px;
     padding-top: 196px;
@@ -527,7 +526,7 @@ body * {
     margin-top: 242px;
 }
 
-.fantasy-container {
+.fantasy-container-desktop {
     position: absolute;
     z-index: 10;
 }
@@ -542,6 +541,11 @@ body * {
 .fantasy-title {
     max-width: 300px;
     letter-spacing: normal;
+}
+
+.fantasy-all {
+    margin: 0 auto;
+    width: 1000px;
 }
 
 .fantasy-item {
@@ -559,7 +563,7 @@ body * {
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-top: -780px;
-    margin-left: 1500px;
+    margin-left: 85vw;
 }
 
 .fantasy-pics-wrapper {
@@ -582,4 +586,72 @@ body * {
 .bottom-img {
     margin-top: 50px;
 }
+
+.section-clients {
+    margin-top: 300px;
+}
+
+.clients-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.clients-txt {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    width: 400px;
+    align-self: center;
+}
+
+.client-pic {
+    border-radius: 50%;
+}
+
+.client-result {
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    padding: 18px;
+    width: 230px;
+    align-self: start;
+}
+
+.client-name {
+    font-size: 18px;
+    line-height: 23px;
+    text-align: unset;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.feed-txt {
+    font-size: 18px;
+    line-height: 29px;
+    color: #959595;
+}
+
+.client-feed {
+    margin: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding: 10px;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+}
+
+.client-result {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: 55px;
+    margin-right: 1.5px;
+}
+
+.res-wrap {
+    display: flex;
 }

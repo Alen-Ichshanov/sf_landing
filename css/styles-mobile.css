@@ -199,3 +199,15 @@
 .measurer, .saving {
     display: none;
 }
+
+.section-fantasy {
+    background-image: none;
+}
+
+.section-fantasy > * {
+    display: none;
+} 
+
+.section-clients {
+    display: none;
+}
