@@ -719,3 +719,17 @@ body * {
 .icon-wrapper {
     margin: 30px;
 }
+
+.map-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fantasy-container-mobile {
+    display: none;
+}
+
+.icon-wrapper-mobile {
+    display: none;
+}
