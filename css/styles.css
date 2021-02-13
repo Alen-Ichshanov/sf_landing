@@ -439,7 +439,7 @@ body * {
     color: #363636;
 }
 
-.measurer-form {
+.measurer-form, .question-form {
     background-color: #131313;
     height: 506px;
     width: 506px;
@@ -453,7 +453,7 @@ body * {
 .measurer-input {
     border: 0;
     background-color: #131313;
-    border-bottom: .7px solid #FFFFFF;
+    border-bottom: .7px solid rgba(255, 255, 255, 0.5) ;
     margin-bottom: 10px;
     color: #FFFFFF;
     align-self: flex-start;
@@ -585,7 +585,7 @@ body * {
     background-image: url(../images/city-back.png);
     background-position: center center;
     background-size: cover;
-    height: 1050px;
+    height: 1200px;
 }
 
 .clients-container {
@@ -654,5 +654,68 @@ body * {
 }
 
 .section-company {
-    background-image: url(../images/info-back.png);
+    background-image: url(../images/company-back.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.question-form {
+    margin-top: -200px;
+    width: 840px;
+    margin-bottom: 50px;
+}
+
+.company-container {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-bottom: 65px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 600px;
+    margin-left: 40px;
+}
+
+.label-question {
+    width: auto;
+}
+
+.label-question {
+    width: 50%;
+}
+
+.question-input {
+    width: 200px;
+}
+
+.question-input-ask {
+    width: 500px;
+}
+
+.question-wrapper {
+    display: block;
+}
+
+.question-check {
+    align-self: unset;
+    margin-left: 40px;
+}
+
+.question-button {
+    align-self: unset;
+    margin-left: 40px;
+}
+
+.address-title {
+    text-align: center;
+    max-width: 700px;
+}
+
+.icon-wrapper {
+    margin: 30px;
 }
