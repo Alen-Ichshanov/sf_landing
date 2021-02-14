@@ -224,7 +224,18 @@ body * {
 }
 
 .arrows {
+    max-width: 205px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-dot {
+    filter: brightness(50%);
+}
+
+.arrow-dot:hover {
+    filter: brightness(100%);
 }
 
 .section-control {
