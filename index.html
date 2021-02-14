@@ -98,9 +98,21 @@
                 <form class="broadcast-form">
                     <label class="label txt">Name<input type="text" placeholder="What is your name:" class="input-form"></label>
                     <label class="label txt">Phone<input type="tel" placeholder="Your phone: " class="input-form"></label>
-                    <label class="check-label txt check-mobile"><input type="checkbox">I agree to the processing of personal data</label>
+                    <div class="first-checkbox check-mobile">
+                        <label class="checkbox-label">
+                          <input type="checkbox" class="checkbox" >
+                          <span class="fake"></span>
+                          <span class="text">I agree to the processing of personal data.</span>
+                        </label>
+                      </div>
                     <button class="button form-button">Submit</button>
-                    <label class="check-label txt check-desktop"><input type="checkbox">I agree to the processing of personal data</label>
+                    <div class="first-checkbox check-desktop">
+                        <label class="checkbox-label">
+                          <input type="checkbox" class="checkbox" >
+                          <span class="fake"></span>
+                          <span class="text">I agree to the processing of personal data.</span>
+                        </label>
+                      </div>
                 </form>
             </div>
         </section>
@@ -196,7 +208,13 @@
                         <label class="label label-measurer txt">Name<input type="text" placeholder="What is your name:" class="measurer-input"></label>
                         <label class="label label-measurer txt">Phone<input type="tel" placeholder="Your phone: " class="measurer-input"></label>
                         <label class="label label-measurer txt">Email<input type="tel" placeholder="Your Email: " class="measurer-input"></label>
-                        <label class="check-label txt measurer-check"><input type="checkbox">I agree to the processing of personal data</label>
+                        <div class="first-checkbox broadcast-check">
+                            <label class="checkbox-label">
+                              <input type="checkbox" class="checkbox" >
+                              <span class="fake"></span>
+                              <span class="text text-broadcast">I agree to the processing of personal data.</span>
+                            </label>
+                        </div>
                         <button class="button measurer-button">Call the measurer</button>
                     </form>
                 </div>
@@ -349,7 +367,13 @@
                     <div class="form-wrapper question-wrapper">                   
                         <label class="label label-measurer  label-question txt">Question<input type="tel" placeholder="I want to know: " class="measurer-input question-input-ask"></label>
                     </div>
-                    <label class="check-label txt measurer-check question-check"><input type="checkbox">I agree to the processing of personal data</label>
+                    <div class="first-checkbox">
+                        <label class="checkbox-label">
+                          <input type="checkbox" class="checkbox" >
+                          <span class="fake"></span>
+                          <span class="text text-broadcast">I agree to the processing of personal data.</span>
+                        </label>
+                    </div>
                     <button class="button measurer-button question-button">Submit</button>
                 </form>
                 <div class="map-wrap">

@@ -290,6 +290,49 @@ body * {
     color: #363636;
 }
 
+.text-broadcast {
+    color: #FFFFFF;
+}
+
+.checkbox{
+    display: none;
+  }
+
+.first-checkbox {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label {
+    display: contents;
+    cursor: pointer;
+}
+
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  }
+
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+
+.checkbox:checked + .fake::before{
+    opacity: 1;
+  }
+
+.broadcast-check {
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
 .broadcast-form {
     margin-top: 91px;
     max-width: 769px;
