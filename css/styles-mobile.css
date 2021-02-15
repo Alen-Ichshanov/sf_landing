@@ -44,6 +44,10 @@
     max-width: 300px;
 }
 
+.subtitle, title {
+    font-size: 22px;
+}
+
 .solid-btn {
     margin-right: 0;
 }
@@ -54,7 +58,7 @@
 
 .txt {
     font-size: 14px;
-    line-height: 19px;
+    line-height: 18px;
 }
 
 .main-title {
@@ -76,7 +80,6 @@
 
 .projects-img-mobile { 
     display: block;
-    width: 80vw;
 }
 
 .projects-container {
@@ -91,6 +94,10 @@
     text-align: center;
 }
 
+.projects-desc {
+    margin-right: 0;
+}
+
 .projects-txt {
     text-align: center;
     margin: 0 auto;
@@ -102,6 +109,8 @@
 .projects-img-mobile {
     display: flex;
     justify-content: center;
+    margin-bottom: 34px;
+    margin-top: 40px;
 }
 
 .arrows {
@@ -111,6 +120,11 @@
 .info-wrap {
     margin: 0 auto;
     max-width: 300px;
+}
+
+.info-piece {
+    width: auto;
+    margin-right: 34px;
 }
 
 .info-title {
@@ -132,10 +146,6 @@
     margin-bottom: 61px;
 }
 
-.video-wrap {
-    width: 90vw;
-    height: 207px;
-}
 
 .broadcast-form {
     display: flex;
